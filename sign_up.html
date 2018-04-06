@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head><title>Sign Up</title>
+	<style>
+		body {background-color: #A1A1A1}
+    	h1{color: rgb(0,188,222);}
+    	td{color: blue;}
+    	input{color:black;}
+    </style>
+	</head>
+	<body>
+ 		<h1 align="center">RAGISTRATION FORM</h1>
+		<center>
+		<table class="sign">
+			<form action="Login.html" method="POST">
+				<tr>
+					<td>Profile photo:</td>
+					<td><br><input type="file"><br></td>
+				</tr>
+				<tr>
+					<td>First name:</td>
+					<td><br><input type="text" name="FirstName" placeholder="First name"><br></td>
+				</tr>
+				<tr>
+					<td>Last name:</td>  
+					<td><br><input type="text" name="LastName" align="left" placeholder="Last name"><br></td>
+				</tr>
+				<tr>
+					<td>Password:</td>
+					<td><br><input type="text" name="password" align="left" placeholder="password"></td>
+				</tr>
+				<tr>
+						<td align="left">Gender:</td>
+						<td><input type="radio" name="gender" align="left" value="male" checked>Male<br/>
+						<input type="radio" name="gender" align="left" value="female"> Female<br/>
+						<input type="radio" name="gender" align="left" value="other"> Other</td>
+                </tr>
+				<tr>
+					<td>Mobile no:</td>
+					<td><br><input type="text" pattern="[0-9]*" name="MobileNo" align="left" placeholder="number"></td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><br><input type="text" name="email" align="left" placeholder="email"></td>
+				</tr>
+				<tr>
+					<td>Address:</td>
+					<td><textarea></textarea></td>
+				</tr>
+				<tr>
+					<td><button type="SUBMIT">SUBMIT</button></td><td><button type="RESET" align="center">RESET</button></td>
+				</tr>
+			</form>
+		</table>
+		</center>
+	</body>
+</html>
